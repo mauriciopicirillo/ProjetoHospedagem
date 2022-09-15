@@ -52,7 +52,7 @@ namespace DesafioProjetoHospedagem.Models
             decimal valor = Convert.ToDecimal(valorFinal);
 
             // Regra: Caso os dias reservados forem maior ou igual a 10, conceder um desconto de 10%
-            // *IMPLEMENTE AQUI*
+            
             if (DiasReservados >=10)
             {
                 double desconto = 0.10 * Convert.ToDouble(valor);
